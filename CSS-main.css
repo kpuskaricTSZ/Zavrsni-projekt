@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Merienda';
+    src: url('Merienda-VariableFont_wght.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 114, 224, 0.25);
+}
+
+header {
+    background-color: #104C03;
+    height: 250px;
+    margin: 0 0 5px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav {
+    width: 96%;
+    background-color: #30851C;
+    border-radius: 20px;
+}
+
+
+ol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.nav {
+    color: #FFFFFF;
+    text-decoration: underline overline;
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Merienda', serif;
+}
+
+.naslovGlavni {
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Merienda', serif;
+    color: #FFFFFF;
+}
+
+main {
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    padding: 20px;
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+article {
+    margin: 3px 0;
+    width: 75%;
+    horiz-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    font-family: "Arial", serif;
+}
+
+article:nth-child(even) {
+    background-color: #9FD89F;
+}
+
+article:nth-child(odd) {
+    background-color: #81D6B2;
+}
+
+.naslov {
+    width: 75%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+
+mark, legend {
+    background: none;
+    font-weight: bold;
+}
+
+.text, legend {
+    font-size: 20px;
+    color: black;
+    margin: 0 0 10px 10px;
+}
+
+dl {
+    width: 98%;
+}
+
+dd {
+    margin-bottom: 15px;
+}
+
+.section-flex-start {
+    align-self: flex-start;
+    margin: 10px 20px;
+}
+
+.section-inside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#slike {
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    width: 90%;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 15px;
+}
+
+img {
+    margin: 5px;
+    border: black solid 1px;
+    border-radius: 20px;
+}
+
+footer {
+    border: 1px solid #262626;
+    text-align: center;
+    background-color: #262626;
+    font-weight: bold;
+    font-size: 20px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-footer {
+    border: #FFFFFF dashed 1px;
+    border-radius: 50px;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+audio, #footerText {
+    margin: 10px 20px;
+}
+
+video {
+    margin: 0 0 20px 0;
+    border-radius: 20px;
+    border: black solid 2px;
+}
+
+#footerText {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Merienda', serif;
+}
+
+.form-article {
+    margin: 5px;
+}
+
+button {
+    background-color: #262626;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+}

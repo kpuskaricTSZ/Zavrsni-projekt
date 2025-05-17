@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forma</title>
+    <link rel="stylesheet" href="../CSS-main.css">
+</head>
+<body>
+<header>
+    <h1 class="naslovGlavni">Pametni Telefoni</h1>
+    <nav>
+        <ol>
+            <li class="nav">
+                <a class="nav" href="index.html">NAČIN RADA PAMETNIH TELEFONA</a>
+            </li>
+            <li class="nav">
+                <a class="nav" href="Povijest_Page.html">POVIJEST PAMETNIH TELEFONA</a>
+            </li>
+            <li class="nav">
+                <a class="nav" href="Glavne_tvrtke_Page.html">GLAVNE TVRTKE U INDUSTRIJI</a>
+            </li>
+            <li class="nav">
+                <a class="nav" href="Trziste_Page.html">TRŽIŠTE PAMETNIH TELEFONA</a>
+            </li>
+            <li class="nav">
+                <a class="nav" href="Form_Page.html">FORMA</a>
+            </li>
+        </ol>
+    </nav>
+</header>
+
+<main class="form">
+    <form>
+        <article class="form-article">
+            <h2 class="naslov">Privatna pitanja</h2>
+
+            <section class="section-flex-start">
+                <section class="section-inside">
+                    <section>
+                        <label for="Ime" class="text">Ime:</label><br>
+                        <input type="text" id="Ime" name="Ime" placeholder="ime"><br><br>
+                    </section>
+
+                    <section>
+                        <label for="Prezime" class="text">Prezime:</label><br>
+                        <input type="text" id="Prezime" name="Prezime" placeholder="prezime"><br><br>
+                    </section>
+
+                    <section>
+                        <label for="Mail" class="text">E-Mail:</label><br>
+                        <input type="text" id="Mail" name="Mail" placeholder="mail"><br><br>
+                    </section>
+                </section>
+
+                <section>
+                    <label for="pitanje" class="text">Opišite svoje iskustvo sa markom pametnog telefona kojeg vi koristite:</label><br>
+                    <textarea id="pitanje" cols="50" rows="5"></textarea><br>
+                    <br><br>
+                </section>
+
+                <section>
+                    <button type="submit" value="Potvrdi">Potvrdi</button>
+                    <button type="reset" value="Reset">Ponovno</button>
+                </section>
+            </section>
+        </article>
+
+        <article class="form-article">
+            <h3 class="naslov">Pitanja vezana za temu</h3>
+            <fieldset>
+                <legend>1. Koji operativni sustav koristi isključivo Apple u svojim pametnim telefonima?</legend>
+
+                <input type="radio" id="radio1" name="radio">
+                <label for="radio1">Android</label><br>
+
+                <input type="radio" id="radio2" name="radio">
+                <label for="radio2">iOS</label><br>
+
+                <input type="radio" id="radio3" name="radio">
+                <label for="radio3">HarmonyOS</label><br>
+
+                <input type="radio" id="radio4" name="radio">
+                <label for="radio4">Windows Phone</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>2. Koje od navedenih komponenata čine osnovu svakog pametnog telefona?</legend>
+
+                <input type="checkbox" id="checkbox1" name="checkbox1">
+                <label for="checkbox1">Procesor(CPU)</label><br>
+
+                <input type="checkbox" id="checkbox2" name="checkbox2">
+                <label for="checkbox2">LED svjetiljka</label><br>
+
+                <input type="checkbox" id="checkbox3" name="checkbox3">
+                <label for="checkbox3">RAM memorija</label><br>
+
+                <input type="checkbox" id="checkbox4" name="checkbox4">
+                <label for="checkbox4">GPS senzor</label><br>
+
+                <input type="checkbox" id="checkbox5" name="checkbox5">
+                <label for="checkbox5">Ručna tipkovnica</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>3. Kada je predstavljen prvi iPhone i po čemu je bio značajan?</legend>
+
+                <input type="text" placeholder="Odgovor">
+            </fieldset>
+
+            <fieldset>
+                <legend>4. Koje zemlje predstavljaju najveća tržišta pametnih telefona?</legend>
+
+                <input type="text" placeholder="Odgovor">
+            </fieldset>
+        </article>
+    </form>
+</main>
+
+<footer>
+    <section class="section-footer">
+        <p id="footerText">@2025</p>
+        <audio controls="true">
+            <source src="../Audio/Chill_Jazz_Audio.mp3" type="audio/mp3">
+        </audio>
+    </section>
+</footer>
+</body>
+</html>
